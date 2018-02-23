@@ -1070,7 +1070,8 @@
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>3.4.0.905</version>
-       	<executions>
+    <!--
+        <executions>
       		 <execution>
       			<phase>verify</phase>
       			 <goals>
@@ -1078,6 +1079,7 @@
       			 </goals>
       		 </execution>
        	</executions>
+-->
       </plugin>
     </plugins>
     </build>
